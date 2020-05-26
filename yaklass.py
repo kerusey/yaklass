@@ -27,3 +27,4 @@ with open("accounts.txt", "r") as accountFile, open("dictionary.txt", "r") as pa
 					output.write(accountRow[:-1] + ":" + passRow)
 			except HTTPError as e:
 				print(e)
+				
